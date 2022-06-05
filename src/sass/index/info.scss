@@ -1,0 +1,78 @@
+@use "../variables";
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: variables.$color3;
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: variables.$negrito1;
+    }
+    hr{
+        width: 5%;
+        height: 3px;
+        background-color: variables.$negrito1; 
+        border: none;
+        border-radius: 50px;
+    }
+    .containerImages{
+        display: flex;
+        width: 80%;
+        height: 80vh;
+        .card{
+            box-sizing: border-box;
+            width: 50%;
+            padding: 15px;
+            .slider{
+                width: 100%;
+                height: 65%;
+                position: relative;
+                overflow: hidden;
+                user-select: none;
+                
+                .carrousel{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    transition: all .5s ease-in;
+                    position: relative;
+                    left: -0%;
+
+                    img{
+                        min-width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                svg{
+                    position: absolute;
+                    top: calc(50% - 20px);
+                    z-index: 99999999;
+                    width: 20px;
+                    opacity: 0.4;
+                    cursor: pointer;
+
+                    &#left-arrow{
+                        left: 10px;
+                    }
+                    &#right-arrow{
+                        right: 10px;
+                    }
+                }
+            }
+
+            h3{
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

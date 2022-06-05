@@ -1,0 +1,13 @@
+$blanquito: #EEEBDD;
+$color1: #EEE4AB;
+$color2: #E5CB9F;
+$color3: #68A7AD;
+$color4: #99C4C8; 
+$negrito: #1B1A17;
+$negrito1: #2C3333;
+
+@mixin centrarHijos(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

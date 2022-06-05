@@ -1,0 +1,26 @@
+.hero {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -10;
+}
+.hero p {
+  margin: 0;
+  width: 60%;
+  font-size: 23px;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1529411765);
+  color: azure;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=hero.css.map */

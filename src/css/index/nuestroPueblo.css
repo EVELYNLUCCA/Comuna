@@ -1,0 +1,25 @@
+body {
+  background-color: #EEEBDD;
+}
+
+h1 {
+  text-align: center;
+  color: #68A7AD;
+}
+
+h2 {
+  color: #68A7AD;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 20px;
+  width: 80%;
+}
+
+/*# sourceMappingURL=nuestroPueblo.css.map */

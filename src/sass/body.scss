@@ -1,0 +1,14 @@
+@use './variables';
+
+body{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.fondo-color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+}
