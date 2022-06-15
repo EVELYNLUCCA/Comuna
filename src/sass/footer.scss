@@ -12,14 +12,19 @@ footer{
         display: flex;
 
         .logo{
-            width: 25%;
+            width: 100%;
             height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             display: flex;
             align-items: center;
             justify-content: center;
 
             img{
-                width: 100px;
+                width: 20%;
+                height: 53%;
+                object-fit: cover;
             }
         }
 
@@ -39,6 +44,9 @@ footer{
                     width: 20px;
                     margin-right: 20px;
                 }
+                    p{
+                        font-size: 0.8em;
+                    }
 
     
             }
@@ -49,15 +57,20 @@ footer{
         height: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding: 30px;
+        padding: 30px 15px;
         align-items: center;
+        
+        
         
             div{
                 width: 33%;
+
                 
             }
             p{
                 margin: 0;
+                font-size: 0.8em;
+            
             }
 
         }
@@ -65,9 +78,17 @@ footer{
     .footer_copyright{
         width: 100%;
         height: 20%;
+        background-color: variables.$negrito1;
+        color: antiquewhite;
+        font-size: 0.7em;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        p{
+            margin: 0;
+        }
+            
+        }
     }
-}
