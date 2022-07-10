@@ -51,6 +51,45 @@ header .div2_header ul {
 header .div2_header ul li {
   margin-right: 40px;
 }
+header .div2_header ul li#tramites {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+header .div2_header ul li#tramites p {
+  margin: 0;
+}
+header .div2_header ul li#tramites svg {
+  margin-left: 5px;
+  width: 12px;
+  fill: #EEEBDD;
+}
+header .div2_header ul li#tramites #submenu_container {
+  transition: bottom 1s;
+  position: absolute;
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 5px;
+  margin: 0;
+  left: -110%;
+  bottom: 0px;
+  width: 300%;
+  z-index: -1;
+  background-color: #68A7AD;
+}
+header .div2_header ul li#tramites #submenu_container li {
+  margin: 0;
+  width: 100%;
+}
+header .div2_header ul li#tramites #submenu_container li a {
+  width: 100%;
+  text-align: center;
+}
 header .div2_header ul li:nth-last-child(1) {
   margin-right: 0;
 }

@@ -1,0 +1,129 @@
+@use '../variables';
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+main #formulario{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #formulario form{
+    display: flex;
+    flex-direction: column;
+    background-color: variables.$blanquitoForm;
+    border-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+main #formulario form input{
+    height: 30px;
+}
+
+main #formulario form input, 
+main #formulario form textarea{
+    border: 1px rgba(0, 0, 0, 0.205) solid;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    resize: none;
+}
+
+main #formulario form input:focus, 
+main #formulario form textarea:focus{
+    border: none;
+    outline: 1px solid black;
+}
+
+main #formulario form label{
+    margin-top: 10px;
+    border: none;
+}
+
+main #formulario form button[type="submit"]{
+    margin-top: 20px;
+    border: none;
+    background-color: variables.$color4;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+
+main #mapa{
+    width: 60%;
+    border-radius: 5px;
+}
+
+main #mapa iframe{
+    height: 70vh;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+main p{
+    text-align: center;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px){
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    main #mapa {
+        display: flex;
+        width: 95%;
+        height: 60%;
+        margin-bottom: 40px;
+    }
+    main #formulario {
+        width: 90%;
+    }
+    main #formulario form {
+        width: 90%;
+        height: 85vh;
+    }
+    main p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    main #mapa {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    main #mapa iframe{
+        width: 100%;
+        height: 100%;
+    }
+    main #formulario {
+        width: 90%;
+    }
+    main #formulario form {
+        width: 80%;
+        height: 70vh;
+    }
+}
