@@ -1,32 +1,70 @@
 #autoridades_y_servicios {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
 }
 #autoridades_y_servicios .servicios, #autoridades_y_servicios .autoridades {
   width: 50%;
-  height: 100%;
-  padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 #autoridades_y_servicios .servicios h2, #autoridades_y_servicios .autoridades h2 {
   width: 100%;
   text-align: center;
 }
-#autoridades_y_servicios .servicios picture, #autoridades_y_servicios .autoridades picture {
+#autoridades_y_servicios .servicios .autoridad, #autoridades_y_servicios .autoridades .autoridad {
   width: 35%;
-  height: 35%;
-  margin-left: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#autoridades_y_servicios .servicios .autoridad picture, #autoridades_y_servicios .autoridades .autoridad picture {
+  width: 75%;
+  height: 60%;
+  border-radius: 40%;
   position: relative;
   overflow: hidden;
 }
-#autoridades_y_servicios .servicios picture img, #autoridades_y_servicios .autoridades picture img {
+#autoridades_y_servicios .servicios .autoridad picture img, #autoridades_y_servicios .autoridades .autoridad picture img {
   width: 100%;
   height: 100%;
   position: absolute;
+  object-fit: cover;
+}
+#autoridades_y_servicios .servicios .autoridad .picture_text h3, #autoridades_y_servicios .servicios .autoridad .picture_text p, #autoridades_y_servicios .autoridades .autoridad .picture_text h3, #autoridades_y_servicios .autoridades .autoridad .picture_text p {
+  margin-bottom: 0;
+}
+#autoridades_y_servicios .servicios .autoridad .picture_text p, #autoridades_y_servicios .autoridades .autoridad .picture_text p {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 80%;
+}
+#autoridades_y_servicios .servicios {
+  height: 50%;
+}
+#autoridades_y_servicios .servicios picture {
+  width: 33%;
+  height: 47%;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#autoridades_y_servicios .servicios picture img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+#autoridades_y_servicios .servicios picture {
+  width: 35%;
+  border-radius: 10px;
+}
+#autoridades_y_servicios .servicios picture img {
   object-fit: cover;
 }
 

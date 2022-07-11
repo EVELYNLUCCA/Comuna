@@ -77,7 +77,6 @@ header{
                     }
 
                     #submenu_container{
-                        transition: bottom 1s;
                         position: absolute;
                         display: flex;
                         height: 100px;
@@ -137,3 +136,34 @@ header{
         }
     }
 }
+
+@keyframes animation-submenu{
+    0%{
+        bottom: -110px;
+        z-index: 99;
+    }
+
+    20%{
+        z-index: -1;
+    }
+
+    100%{
+        bottom: 0;
+    }
+}
+
+ @keyframes view-submenu{
+    0%{
+        bottom: 0px;
+        z-index: -400;
+    }
+
+    35%{
+        z-index: 1;
+    }
+
+    100%{
+        bottom: -110px;
+        z-index: 99;
+    }
+ }

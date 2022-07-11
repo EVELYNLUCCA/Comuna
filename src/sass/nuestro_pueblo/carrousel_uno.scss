@@ -1,0 +1,49 @@
+@use '../variables';
+
+#slider_contain{
+    margin-top: 40px;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+
+    .controls{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding: 0px 20px;
+        top: 48%;
+        z-index: 10;
+
+        svg{
+            background-color: #d8d8d8d2;
+            width: 15px;
+            cursor: pointer;
+        }
+    }
+
+    #slider{
+        position: relative;
+        height: 100%;
+        display: flex;
+        padding: 0px 10px;
+        left: 0;
+        transition: all 1s;
+
+        picture {
+            min-width: 300px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+
+            img{
+                cursor: pointer;
+                width: 100%;
+                height: 60%;
+            }
+        }
+    }
+}
