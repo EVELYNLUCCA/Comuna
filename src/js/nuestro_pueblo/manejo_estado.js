@@ -31,7 +31,7 @@ const data = {
                 description: 'JUEGOS PLAZA'
             }
         ],
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis est beatae dolorem, temporibus earum asperiores maxime iusto molestiae numquam quia molestias aliquam tempore error laboriosam? Dignissimos libero odit ut iusto, eligendi rem adipisci vero perspiciatis, officiis a ratione aperiam, voluptatem accusamus nobis. Similique sapiente,22222222'
+        description: 'Lorem <img src="./src/images/plaza/plaza_frente.jpg" alt="frente de plaza"/> ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis est beatae dolorem, temporibus earum asperiores maxime iusto molestiae numquam quia molestias aliquam tempore error laboriosam? Dignissimos libero odit ut iusto, eligendi rem adipisci vero perspiciatis, officiis a ratione aperiam, voluptatem accusamus nobis. Similique sapiente,22222222'
     }
 };
 
@@ -58,6 +58,6 @@ activadores.forEach(imagen => {
             slider_container.innerHTML += newPresentacion;
         });
 
-        text_description.innerText = object.description;
+        text_description.innerHTML = `${object.description}`;
     })
 })

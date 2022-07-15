@@ -6,6 +6,7 @@
     flex-direction: column;
     background-color: variables.$color3;
     h2{
+        font-family:'Nanum Gothic', Arial, Helvetica, sans-serif;
         text-align: center;
         text-transform: uppercase;
         font-size: 30px;
@@ -21,7 +22,7 @@
     .containerImages{
         display: flex;
         width: 80%;
-        height: 80vh;
+        height: 100vh;
         .card{
             box-sizing: border-box;
             width: 50%;

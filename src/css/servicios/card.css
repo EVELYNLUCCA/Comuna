@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0px 150px 70px;
+}
+
+.card {
+  margin-top: 70px;
+  background-color: #68A7AD;
+  width: 60%;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card .img {
+  position: relative;
+  left: -10%;
+  height: 70%;
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.card .text {
+  width: 60%;
+  padding: 10px 60px 10px 0px;
+}
+
+/*# sourceMappingURL=card.css.map */
