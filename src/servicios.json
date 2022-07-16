@@ -2,37 +2,43 @@
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884803/comuna/Fotos%20Presidente%20Roca/servicios/centro_de_salud_luj3vq.jpg",
         "title": "Centro de Salud",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "description": "La atención en el SANCO se realiza de lunes a viernes en el horario de 6 hs a 12 hs. Contamos con atención médica, enfermería, vacunatorio y servicio de odontología.Para gestionar turnos o ante cualquier duda podés comunicarte a nuestros teléfonos: 3492 485210  / 3492 229079"
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884807/comuna/Fotos%20Presidente%20Roca/servicios/servicios_cajero_xgt2sy.jpg",
         "title": "Cajero Automático",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "description": "A partir de enero de 2022, nuestra localidad cuenta con un cajero automático de la red Link, del Banco Provincia de Santa Fe, para el uso común, seguridad y comodidad de nuestros vecinos"
 
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884883/comuna/Fotos%20Presidente%20Roca/servicios/sum_hlhkxz.jpg",
         "title": "Salón de Usos Múltiples",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "description": "El SUM de nustro pueblo es un lugar de uso común para servicio de cada vecino"
     },
     {
-        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884821/comuna/Fotos%20Presidente%20Roca/iluminaci%C3%B3n_acceso_Estaci%C3%B3n_ywc0zm.jpg",
-        "title": "Reciclado",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657887008/comuna/Fotos%20Presidente%20Roca/servicios/residuos_ag57dq.png",
+        "title": "Recolección de residuos",
+        "description": "ROCA SUSTENTABLE es un compromiso de todos. SUMATE A LA SEPARACIÓN DE RESIDUOS DOMICILIARIOS.Los servicios comunales de recolección se realizan en el horario de 7 hs a 12 hs, bajo el siguiente cronograma:Lunes y viernes: residuos de hogar. Miércoles: residuos de patio."
+
     },
     {
-        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884876/comuna/Fotos%20Presidente%20Roca/residuos/residuos2_qo79uj.jpg",
-        "title": "Luminarias acceso Sur",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884793/comuna/Fotos%20Presidente%20Roca/plaza/plaza_fuente1_hyrdk6.jpg",
+        "title": "Baños Públicos",
+        "description": "Los baños públicos, ubicados en la Plaza San Martín, son una obra con la que que nos enorgullese contar para beneficio tanto de las personas del pueblo, como para comodidad los asiduos visitantes que recibimos. RECORDEMOS CUIDARLOS COMO CORRESPONDE."
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657887120/comuna/Fotos%20Presidente%20Roca/servicios/95123_1487089544_911_brcziq.jpg",
         "title": "Riego de caminos",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "description": "El servicio de riego de caminos está activo desde hace años en el pueblo, contribuyendo al aplacamiento de la tierra y a la mantención de los caminos que no han sido asfaltados"
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657886957/comuna/Fotos%20Presidente%20Roca/servicios/castraciones_z0oyy2.jpg",
         "title": "Castraciones y vacunaciones gratuitas",
-        "description": "nbfñsjbknsbonkirslbnoksbnlfnmskglrmjfpbl"
+        "description": "Fomentando la tenencia responsable"
+    },
+
+    {"imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657890731/comuna/Fotos%20Presidente%20Roca/servicios/planta_potabilizadora_withcg.jpg",
+        "title": "Planta Potabilizadora de agua",
+        "description": "Desde el mes de diciembre de 2021, cuando recibimos la máquina para la planta de ómosis, sincrementamos la capacidad de producción de agua potable para los vecinos"
     }
 ]
