@@ -2,43 +2,60 @@
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884803/comuna/Fotos%20Presidente%20Roca/servicios/centro_de_salud_luj3vq.jpg",
         "title": "Centro de Salud",
-        "description": "La atención en el SANCO se realiza de lunes a viernes en el horario de 6 hs a 12 hs. Contamos con atención médica, enfermería, vacunatorio y servicio de odontología.Para gestionar turnos o ante cualquier duda podés comunicarte a nuestros teléfonos: 3492 485210  / 3492 229079"
+        "category": "asistencia",
+        "category2": "salud",
+        "description": "La atención en el SANCO se realiza de lunes a viernes en el horario de 6 hs a 12 hs. Contamos con atención médica, enfermería, vacunatorio y servicio de odontología.Para gestionar turnos o ante cualquier duda podés comunicarte a nuestros teléfonos: 3492 485210  / 3492 229079."
     },
     {
-        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884807/comuna/Fotos%20Presidente%20Roca/servicios/servicios_cajero_xgt2sy.jpg",
+        "imageUrl": "https://scontent.fros2-1.fna.fbcdn.net/v/t39.30808-6/256493668_1059081208213997_1873925541253712347_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=dhqAaxb1uDUAX_LiJMB&_nc_ht=scontent.fros2-1.fna&oh=00_AT-QvdKZSpi0ZX_GEPt1qAq4qUANzs1JkiSxpe9naNtKpA&oe=62DA91DB",
         "title": "Cajero Automático",
-        "description": "A partir de enero de 2022, nuestra localidad cuenta con un cajero automático de la red Link, del Banco Provincia de Santa Fe, para el uso común, seguridad y comodidad de nuestros vecinos"
+        "category": "asistencia",
+        "category2": "obra",
+        "description": "Desde mediados de noviembre de 2021, nuestra localidad cuenta con un cajero automático de la red Link, del Banco Provincia de Santa Fe, para el uso común, seguridad y comodidad de nuestros vecinos."
 
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884883/comuna/Fotos%20Presidente%20Roca/servicios/sum_hlhkxz.jpg",
         "title": "Salón de Usos Múltiples",
-        "description": "El SUM de nustro pueblo es un lugar de uso común para servicio de cada vecino"
+        "category": "obras",
+        "description": "El SUM de nustro pueblo es un lugar de uso común para servicio de cada vecino."
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657887008/comuna/Fotos%20Presidente%20Roca/servicios/residuos_ag57dq.png",
         "title": "Recolección de residuos",
+        "category": "asistencia",
+        "category2": "medio-ambiente",
         "description": "ROCA SUSTENTABLE es un compromiso de todos. SUMATE A LA SEPARACIÓN DE RESIDUOS DOMICILIARIOS.Los servicios comunales de recolección se realizan en el horario de 7 hs a 12 hs, bajo el siguiente cronograma:Lunes y viernes: residuos de hogar. Miércoles: residuos de patio."
 
     },
     {
-        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884793/comuna/Fotos%20Presidente%20Roca/plaza/plaza_fuente1_hyrdk6.jpg",
+        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1658152250/tanque%20de%20agua%20y%20ba%C3%B1os%20p%C3%BAblicos/20220717_174016_plmmys.jpg",
         "title": "Baños Públicos",
+        "category": "obras",
         "description": "Los baños públicos, ubicados en la Plaza San Martín, son una obra con la que que nos enorgullese contar para beneficio tanto de las personas del pueblo, como para comodidad los asiduos visitantes que recibimos. RECORDEMOS CUIDARLOS COMO CORRESPONDE."
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657887120/comuna/Fotos%20Presidente%20Roca/servicios/95123_1487089544_911_brcziq.jpg",
         "title": "Riego de caminos",
-        "description": "El servicio de riego de caminos está activo desde hace años en el pueblo, contribuyendo al aplacamiento de la tierra y a la mantención de los caminos que no han sido asfaltados"
+        "category": "medio-ambiente",
+        "description": "El servicio de riego de caminos está activo desde hace años en el pueblo, contribuyendo al aplacamiento de la tierra y a la mantención de los caminos que no han sido asfaltados."
     },
     {
         "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657886957/comuna/Fotos%20Presidente%20Roca/servicios/castraciones_z0oyy2.jpg",
         "title": "Castraciones y vacunaciones gratuitas",
-        "description": "Fomentando la tenencia responsable"
+        "category": "salud",
+        "category2": "asistencia",
+        "description": "Fomentando la tenencia responsable."
     },
 
-    {"imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657890731/comuna/Fotos%20Presidente%20Roca/servicios/planta_potabilizadora_withcg.jpg",
-        "title": "Planta Potabilizadora de agua",
-        "description": "Desde el mes de diciembre de 2021, cuando recibimos la máquina para la planta de ómosis, sincrementamos la capacidad de producción de agua potable para los vecinos"
+    {"imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1658152252/tanque%20de%20agua%20y%20ba%C3%B1os%20p%C3%BAblicos/20220717_173554_t801pn.jpg",
+        "title": "Agua potable",
+        "category": "medio-ambiente",
+        "description": "Desde el mes de diciembre de 2021, cuando recibimos la máquina para la planta de ómosis, incrementamos la capacidad de producción de agua potable para los vecinos."
+    },
+    {"imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657886982/comuna/Fotos%20Presidente%20Roca/servicios/mantenimiento_de_caminos_duzand.jpg",
+        "title": "Obras y mantenimiento de caminos",
+        "category": "obras",
+        "description": "Diariamente realizamos obras que contribuyen a mejorar el estado de caminos para maximizar la comodidad de nuestros habitantes."
     }
 ]

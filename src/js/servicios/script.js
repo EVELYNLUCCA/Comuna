@@ -1,13 +1,11 @@
 import data from '../../servicios.json' assert { type: "json" };
 
-console.log(data);
-console.log(data);
-
-const container = document.querySelector('main');
+const container = document.querySelector('.container');
 
 data.forEach(el => {
+    
     const card = `
-    <div class="card">
+    <div class="card mix ${el.category} ${el.category2 ? el.category2 : ''}">
         <div class="img">
             <img src="${el.imageUrl}" alt="${el.name + 'image'}">
         </div>
@@ -22,3 +20,5 @@ data.forEach(el => {
 
     container.innerHTML += card;
 });
+
+mixitup(".container");

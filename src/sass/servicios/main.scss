@@ -1,0 +1,40 @@
+@use '../variables';
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 0px;
+}
+
+.chooser{
+    position: absolute;
+    right: 28%;
+    top: 0%;
+    display: flex;
+
+    button{
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        color: variables.$blanquito;
+        margin-top: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        font-size: 13px;
+        border-radius: 7px;
+        text-transform: uppercase;
+        height: 45px;
+        cursor: pointer;
+        background-color: variables.$color4;
+        border: none;
+        border-bottom: 4px solid variables.$color3;
+        position: relative;
+
+        p{
+            position: relative;
+            top: 10px;
+        }
+    }
+}

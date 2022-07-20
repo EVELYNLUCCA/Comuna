@@ -51,11 +51,11 @@
                 }
 
                 svg{
+                    background-color: #FEFEFE80;
                     position: absolute;
                     top: calc(50% - 20px);
                     z-index: 99999999;
                     width: 20px;
-                    opacity: 0.4;
                     cursor: pointer;
 
                     &#left-arrow{

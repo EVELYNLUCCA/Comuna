@@ -51,11 +51,11 @@
   border-radius: 12px;
 }
 #info .containerImages .card .slider svg {
+  background-color: rgba(254, 254, 254, 0.5019607843);
   position: absolute;
   top: calc(50% - 20px);
   z-index: 99999999;
   width: 20px;
-  opacity: 0.4;
   cursor: pointer;
 }
 #info .containerImages .card .slider svg#left-arrow {

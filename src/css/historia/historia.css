@@ -10,10 +10,11 @@ main h1 {
   color: #68A7AD;
 }
 main p {
-  text-align: center;
+  text-align: justify;
   box-sizing: border-box;
   font-size: 18px;
   padding: 0 30px;
+  margin: 10px 0px;
 }
 
 .carrousel {
@@ -52,8 +53,12 @@ main p {
   border-radius: 50%;
 }
 .carrousel .slider .item h2 {
-  width: 59%;
-  background-color: #99C4C8;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+  background-color: rgba(254, 254, 254, 0.5019607843);
 }
 .carrousel .controls {
   width: 100%;
@@ -71,6 +76,7 @@ main p {
 }
 
 .huellas {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,34 +84,29 @@ main p {
 }
 .huellas h2 {
   text-align: center;
-  background-color: #68A7AD;
+  color: #68A7AD;
   margin: 40px;
-  font-size: 25px;
+  font-size: 28px;
 }
 .huellas p {
+  margin: 20px 0px;
   font-size: 18px;
+  text-align: justify;
 }
 .huellas h3 {
-  background-color: #99C4C8;
+  color: #68A7AD;
   text-align: center;
   margin: 40px;
   font-size: 20px;
 }
-.huellas .foto_padre {
-  width: 100%;
-  height: 100%;
+.huellas .text img {
+  width: 300px;
+  float: left;
+  border-radius: 10px;
+  margin: 10px 25px;
 }
-.huellas .foto_padre img {
-  width: 20%;
-  height: 20%;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-}
-.huellas .foto_doctor img {
-  margin: 20px;
-  width: 70%;
-  border-radius: 8px;
+.huellas .text img#float_right {
+  float: right;
 }
 
 /*# sourceMappingURL=historia.css.map */
