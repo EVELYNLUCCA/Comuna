@@ -1,9 +1,6 @@
 const leftArrows = document.querySelectorAll('.left-arrow');
 const rightArrows = document.querySelectorAll('.right-arrow');
 
-console.log(leftArrows);
-console.log(rightArrows);
-
 let contadorRight = 0;
 
 
@@ -27,8 +24,7 @@ leftArrows.forEach(el => {
 
     el.addEventListener('click', (e) => {
         const carrousel = el.nextElementSibling;
-
-        console.log(contadorRight);
+        
         if(contadorRight > 0){
             contadorRight--
         } else{

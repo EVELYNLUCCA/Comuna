@@ -82,6 +82,21 @@ main p {
   align-items: center;
   justify-content: center;
 }
+.huellas .persona_huella {
+  background-color: #99C4C8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.huellas .persona_huella .padre_juan, .huellas .persona_huella .doctor_angi {
+  background-color: #68A7AD;
+  width: 90%;
+  border-radius: 20px;
+}
+.huellas .persona_huella .padre_juan .text img, .huellas .persona_huella .doctor_angi .text img {
+  position: relative;
+}
 .huellas h2 {
   text-align: center;
   color: #68A7AD;
@@ -94,7 +109,7 @@ main p {
   text-align: justify;
 }
 .huellas h3 {
-  color: #68A7AD;
+  color: #EEEBDD;
   text-align: center;
   margin: 40px;
   font-size: 20px;

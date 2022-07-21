@@ -96,6 +96,27 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    .persona_huella{
+        background-color: variables.$color4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+        .padre_juan, .doctor_angi{
+            background-color: variables.$color3;
+            width: 90%;
+            border-radius: 20px;
+
+            .text{
+                img{
+                    position: relative;
+                }
+            }
+        }
+    }
+
         h2{
             text-align: center;
             color: variables.$color3;
@@ -109,7 +130,7 @@ p{
         }
 
         h3{
-            color: variables.$color3;
+            color: variables.$blanquito;
             text-align: center;
             margin: 40px;
             font-size: 20px;
