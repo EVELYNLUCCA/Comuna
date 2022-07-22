@@ -68,7 +68,7 @@
             "https://res.cloudinary.com/sportify123/image/upload/v1657884815/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_patio1_qekapj.jpg"
             
         ],
-        "color": "linear-gradient(0deg, rgba(59,64,58,1) 2%, rgba(139,147,166,1) 45%);"
+        "color": "linear-gradient(180deg, rgba(179,98,36,1) 56%, rgba(252,176,69,1) 97%);"
     },
     {
         "id": "escuela2",
@@ -81,7 +81,7 @@
             
             
         ],
-        "color": "linear-gradient(0deg, rgba(59,64,58,1) 2%, rgba(139,147,166,1) 45%);"
+        "color": " linear-gradient(175deg, rgba(76,149,176,1) 18%, rgba(51,103,142,0.9752275910364145) 58%);"
     },
     {
         "id": "comisaria",
@@ -93,7 +93,7 @@
             "https://res.cloudinary.com/sportify123/image/upload/v1657884727/comuna/Fotos%20Presidente%20Roca/entrada_ruta_13_qgebgk.jpg"
             
         ],
-        "color": "linear-gradient(0deg, rgba(59,64,58,1) 2%, rgba(139,147,166,1) 45%);"
+        "color": "linear-gradient(175deg, rgba(204,193,188,1) 15%, rgba(204,152,115,0.9752275910364145) 28%);"
     },
     {
         "id": "comuna",
@@ -105,6 +105,6 @@
             "https://res.cloudinary.com/sportify123/image/upload/v1657884810/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/Santa_Fe_Servicios_2_utou0y.jpg",
             "https://res.cloudinary.com/sportify123/image/upload/v1657884804/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/primeros_auxilios_sum_jossb6.jpg"
         ],
-        "color": "linear-gradient(0deg, rgba(59,64,58,1) 2%, rgba(139,147,166,1) 45%);"
+        "color": "linear-gradient(175deg, rgba(76,149,176,1) 18%, rgba(51,103,142,0.9752275910364145) 58%);"
     }
 ]

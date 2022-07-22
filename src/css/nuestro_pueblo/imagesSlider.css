@@ -63,7 +63,7 @@
 }
 
 .images_slider input:checked {
-  background: hotpink;
+  background: black;
 }
 
 .images_slider input + * {

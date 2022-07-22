@@ -44,6 +44,10 @@
   align-self: center;
   justify-self: center;
   border-radius: 7px;
+  transition: all 0.3s;
+}
+#slider_contain #slider .tanda picture:hover {
+  transform: scale(1.05);
 }
 #slider_contain #slider .tanda picture p {
   border-radius: 7px;

@@ -30,15 +30,39 @@
 .card_container .card .text h2 {
   text-align: center;
 }
+.card_container .card .text p {
+  font-size: 19px;
+}
 .card_container .card .border {
   transition: all 1s;
   border-radius: 10px;
   width: 1%;
   height: 100%;
-  background-color: #40c977;
+  background: linear-gradient(0deg, rgb(33, 138, 37) 9%, rgb(116, 222, 74) 76%);
   position: absolute;
   z-index: 3;
   right: 0;
+}
+
+@keyframes desappear {
+  0% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+  100% {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0.4;
+  }
+}
+@keyframes appear {
+  0% {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=card.css.map */
