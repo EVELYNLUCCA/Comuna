@@ -1,28 +1,34 @@
-
+import data from '../../nuestro_pueblo.json' assert { type: "json" };
+const card = document.getElementById('card');
+const wrapper = document.getElementById('wrapper');
 
 const activadores = document.querySelectorAll('.select_picture');
-const slider_container = document.querySelector('.slider_presentacion');
-const text_description = document.getElementById('text_descripcion');
-
 console.log(activadores);
 
-activadores.forEach(imagen => {
-    imagen.addEventListener('click', (e) => {
-        const object = data[imagen.id];
-        console.log(object);
-        slider_container.innerHTML = '';
-
-        object.imgs.forEach(el => {
-            const newPresentacion = `
-            <div class="presentacion">
-                <h2>${el.description}</h2>
-                <img src="${el.url}" alt="frente de plaza">
+activadores.forEach(activador => {
+    activador.addEventListener('click', (e) => {
+        const filtro = data.filter(el => el.id === e.target.id)[0];
+        
+        card.innerHTML = `
+            <img src="${filtro.imagenPrincipal}" alt="${filtro.id}">
+            <div class="text">
+                <h2>${filtro.titulo}</h2>
+                <p>${filtro.descripción}</p>
             </div>
+            <div class="border" style="background: ${filtro.color}"></div>
+        `;
+
+        wrapper.innerHTML = '';
+
+        filtro.imagenesMuestra.forEach((el, index) => {
+            const elementHtml = `
+                <input type="radio" name="image-slide" checked="checked">
+                <picture>
+                    <img src="${el}" alt="${filtro.id + ' image ' + index}">
+                </picture>
             `;
 
-            slider_container.innerHTML += newPresentacion;
+            wrapper.innerHTML += elementHtml;
         });
-
-        text_description.innerHTML = `${object.description}`;
     })
 })

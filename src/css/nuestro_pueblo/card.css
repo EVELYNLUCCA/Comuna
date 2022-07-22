@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   background-color: #99C4C8;
-  border-radius: 1px;
+  border-radius: 7px;
   position: relative;
 }
 .card_container .card:hover .border {
