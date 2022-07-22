@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./src/images/logoComuna.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/index/nav.css">
     <link rel="stylesheet" href="./src/css/normalize.css">
@@ -79,50 +80,54 @@
             </div>
 
             <div id="slider">
-                <picture>
-                    <p>Club Sportivo roca</p>
-                    <img class="select_picture" id="club" src="./src/images/club Sportivo Roca/club.jpg" alt="club deportivo roca">
-                </picture>
+                <div class="tanda">
+                    <picture>
+                        <p>Club Sportivo Roca</p>
+                        <img class="select_picture" id="club" src="./src/images/club Sportivo Roca/club.jpg" alt="Club Sportivo Roca">
+                    </picture>
+    
+                    <picture>
+                        <p>Plaza San Martín</p>
+                        <img class="select_picture" id="plaza" src="./src/images/plaza/plaza_frente.jpg" alt="Plaza San Martin">
+                    </picture>
+    
+                    <picture>
+                        <p>Parroquia San Roque</p>
+                        <img class="select_picture" id="parroquia" src="./src/images/iglesia/iglesia.jpg" alt="Parroquia San Roque">
+                    </picture>
+    
+                    <picture>
+                        <p>Estación Roca</p>
+                        <img class="select_picture" id="estacion" src="https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/garita_itwrnf.jpg" alt="Estación Roca">
+                    </picture>
+                </div>
 
-                <picture>
-                    <p>Plaza San Martín</p>
-                    <img class="select_picture" id="plaza" src="./src/images/plaza/plaza_frente.jpg" alt="club deportivo roca">
-                </picture>
-
-                <picture id="">
-                    <p>Parroquia San Roque</p>
-                    <img class="select_picture" id="" src="./src/images/iglesia/iglesia.jpg" alt="club deportivo roca">
-                </picture>
-
-                <picture id="">
-                    <p>Estación Roca</p>
-                    <img class="select_picture" id="" src="https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/garita_itwrnf.jpg" alt="club deportivo roca">
-                </picture>
-
-                <picture id="">
-                    <p>Escuela N° 386 "D.F.Sarmiento"</p>
-                    <img class="select_picture" id="" src="./src/images/escuelas/escuelas_frente.jpg" alt="club deportivo roca">
-                </picture>
-
-                <picture id="">
-                    <p>Escuela N° 703 "René Favaloro"</p>
-                    <img class="select_picture" id="" src="https://res.cloudinary.com/sportify123/image/upload/v1657884824/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_secundaria_ortev3.jpg" alt="club deportivo roca">
-                </picture>
-
-                <picture id="">
-                    <p>Sub-Comisaría N°15"</p>
-                    <img class="select_picture" id="" src="https://res.cloudinary.com/sportify123/image/upload/v1657884730/comuna/Fotos%20Presidente%20Roca/comisar%C3%ADa_pajfi2.jpg" alt="club deportivo roca">
-                </picture>
-
-                <picture id="">
-                    <p>Comuna</p>
-                    <img class="select_picture" id="" src="https://res.cloudinary.com/sportify123/image/upload/v1657884796/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/frente_ajt5ti.jpg" alt="club deportivo roca">
-                </picture>
+                <div class="tanda">
+                    <picture>
+                        <p>Escuela N° 386 "D.F.Sarmiento"</p>
+                        <img class="select_picture" id="escuela1" src="./src/images/escuelas/escuelas_frente.jpg" alt="Escuela primaria">
+                    </picture>
+    
+                    <picture>
+                        <p>Escuela N° 703 "René Favaloro"</p>
+                        <img class="select_picture" id="escuela2" src="https://res.cloudinary.com/sportify123/image/upload/v1657884824/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_secundaria_ortev3.jpg" alt="Escuela secundaria">
+                    </picture>
+    
+                    <picture>
+                        <p>Sub-Comisaría N°15"</p>
+                        <img class="select_picture" id="comisaria" src="https://res.cloudinary.com/sportify123/image/upload/v1657884730/comuna/Fotos%20Presidente%20Roca/comisar%C3%ADa_pajfi2.jpg" alt="Sub-comisaría 15">
+                    </picture>
+    
+                    <picture>
+                        <p>Comuna</p>
+                        <img class="select_picture" id="comuna" src="https://res.cloudinary.com/sportify123/image/upload/v1657884796/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/frente_ajt5ti.jpg" alt="Comuna">
+                    </picture>
+                </div>
             </div>
         </section>
         
         <section class="card_container">
-            <div class="card">
+            <div class="card" id="card">
                 <img src="./src/images/plaza/plaza_cartel.jpg" alt="plaza cartel">
                 <div class="text">
                     <h2>Plaza San Martín</h2>
@@ -133,37 +138,47 @@
         </section>
 
         <section class="images_slider">
-            <div class="wrapper">
+            <div class="wrapper" id="wrapper">
                 <input type="radio" name="image-slide" checked="checked">
-                <picture aria-label="Random Picture 1">
-                    <img src="https://picsum.photos/500/300?random=1" alt="Random Picture 1">
-                </picture>
-                
-                <input type="radio" name="image-slide">
-                <picture aria-label="Random Picture 2">
-                    <img src="https://picsum.photos/500/300?random=2" alt="">
-                </picture>
-            
-                <input type="radio" name="image-slide">
-                <picture aria-label="Link image">
-                    <a href="https://picsum.photos/500/300?random=3" target="_blank">
-                        <img src="https://picsum.photos/500/300?random=3" alt="">
-                    </a>
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884793/comuna/Fotos%20Presidente%20Roca/plaza/plaza_fuente1_hyrdk6.jpg" alt="Fuente">
                 </picture>
                 
                 <input type="radio" name="image-slide">
                 <picture>
-                    <img src="https://picsum.photos/500/300?random=4" alt="">
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884796/comuna/Fotos%20Presidente%20Roca/plaza/plaza_play%C3%B3n1_wpwws0.jpg" alt="Juegos">
+                </picture>
+            
+                <input type="radio" name="image-slide">
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884802/comuna/Fotos%20Presidente%20Roca/plaza_p%C3%A9rgola/plaza_p%C3%A9rgola3_yezeeo.jpg" alt="Pérgola">
                 </picture>
                 
                 <input type="radio" name="image-slide">
-                <section>
-                    <h2>
-                        This is not an image!
-                    </h2>
-                    <p>You could also just use a container with some text in it</p>
-                    <button>Call to action, bitch!</button>
-                </section>
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884854/comuna/Fotos%20Presidente%20Roca/plaza_vegetaci%C3%B3n/plaza_vagetaci%C3%B3n6_nxunji.jpg" alt="Vegetación">
+                </picture>
+                
+                <input type="radio" name="image-slide">
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884879/comuna/Fotos%20Presidente%20Roca/plaza_vegetaci%C3%B3n/plaza_vegetaci%C3%B3n3_kpo8zb.jpg" alt="Vegetación">
+                </picture>
+
+                <input type="radio" name="image-slide">
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884843/comuna/Fotos%20Presidente%20Roca/plaza_canteros/arreglo2_htkaby.jpg" alt="Canteros">
+                </picture>
+
+                <input type="radio" name="image-slide">
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884843/comuna/Fotos%20Presidente%20Roca/plaza_juegos/plaza_juegos6_mueabu.jpg" alt="Juegos">
+                </picture>
+
+                <input type="radio" name="image-slide">
+                <picture>
+                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884801/comuna/Fotos%20Presidente%20Roca/plaza_juegos/plaza_juegos_aezqwc.jpg" alt="Juegos">
+                </picture>
+                
             </div>
         </section>
     </main>
@@ -246,9 +261,8 @@
         </div>
     </footer>
 
-    <script src="./src/js/submenu.js"></script>
-    <script src="./src/js/nuestro_pueblo/carrousel_uno.js"></script>
-    <script src="./src/js/nuestro_pueblo/carrousel_dos.js"></script>
-    <script src="./src/js/nuestro_pueblo/manejo_estado.js"></script>
+    <script type="module" src="./src/js/submenu.js"></script>
+    <script type="module" src="./src/js/nuestro_pueblo/carrousel_uno.js"></script>
+    <script type="module" src="./src/js/nuestro_pueblo/manejo_estado.js"></script>
 </body>
 </html>
