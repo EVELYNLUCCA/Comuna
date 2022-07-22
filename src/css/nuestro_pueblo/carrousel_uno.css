@@ -34,6 +34,21 @@
   display: flex;
   align-items: center;
   margin-right: 20px;
+  position: relative;
+}
+#slider_contain #slider picture p {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0%;
+  font-weight: bold;
+  bottom: 15%;
+  height: 9%;
+  width: 100%;
+  background-color: rgba(161, 155, 155, 0.6705882353);
 }
 #slider_contain #slider picture img {
   cursor: pointer;

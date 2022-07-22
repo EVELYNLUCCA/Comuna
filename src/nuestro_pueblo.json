@@ -1,0 +1,97 @@
+[
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884737/comuna/Fotos%20Presidente%20Roca/club%20Sportivo%20Roca/club_ifgpsm.jpg",
+        "titulo": "Club Sportivo Roca",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884817/comuna/Fotos%20Presidente%20Roca/cancha/cancha_dkmfvh.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884737/comuna/Fotos%20Presidente%20Roca/cancha/cancha2_wevgya.jpg"
+            
+        ],
+        "color": "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 45%, rgba(255,0,0,1) 100%);"
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884789/comuna/Fotos%20Presidente%20Roca/plaza/plaza_frente_xzpivt.jpg",
+        "titulo": "Plaza San Martín",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884793/comuna/Fotos%20Presidente%20Roca/plaza/plaza_fuente1_hyrdk6.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884796/comuna/Fotos%20Presidente%20Roca/plaza/plaza_play%C3%B3n1_wpwws0.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884802/comuna/Fotos%20Presidente%20Roca/plaza_p%C3%A9rgola/plaza_p%C3%A9rgola3_yezeeo.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884854/comuna/Fotos%20Presidente%20Roca/plaza_vegetaci%C3%B3n/plaza_vagetaci%C3%B3n6_nxunji.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884879/comuna/Fotos%20Presidente%20Roca/plaza_vegetaci%C3%B3n/plaza_vegetaci%C3%B3n3_kpo8zb.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884843/comuna/Fotos%20Presidente%20Roca/plaza_canteros/arreglo2_htkaby.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884843/comuna/Fotos%20Presidente%20Roca/plaza_juegos/plaza_juegos6_mueabu.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884801/comuna/Fotos%20Presidente%20Roca/plaza_juegos/plaza_juegos_aezqwc.jpg"
+            
+        ],
+        "color": "linear-gradient(0deg, rgba(33,138,37,1) 9%, rgba(116,222,74,1) 76%);"
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884776/comuna/Fotos%20Presidente%20Roca/iglesia/iglesia_1_mc8xvo.jpg",
+        "titulo": "Parroquia San Roque",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884777/comuna/Fotos%20Presidente%20Roca/iglesia/iglesia3_k4iqqs.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884778/comuna/Fotos%20Presidente%20Roca/iglesia/iglesia2_duef5a.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884776/comuna/Fotos%20Presidente%20Roca/iglesia/iglesia1_lpjkgj.jpg"
+            
+        ],
+        "color": "linear-gradient(0deg, rgba(59,64,58,1) 2%, rgba(139,147,166,1) 45%);"
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884750/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/casona2_wwcq3h.jpg",
+        "titulo": "Estación Roca",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1658001822/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/escuela_gmtmxn.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/caballos1_btp1xr.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884758/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/casona_encizv.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/garita_itwrnf.jp",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884768/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/la_roca_box08w.jpg"
+        
+        ]
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884746/comuna/Fotos%20Presidente%20Roca/escuelas/escuelas_frente1_nbct47.jpg",
+        "titulo": "Escuela Primaria N°386 D.F.Sarmiento",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884749/comuna/Fotos%20Presidente%20Roca/escuelas/escuelas_frente_b0vobj.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884756/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_patio_xkdjmm.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884815/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_patio1_qekapj.jpg"
+            
+        ]
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884824/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_secundaria_ortev3.jpg",
+        "titulo": "Escuela Secunadaria N° 702 René Favaloro",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884756/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_patio_xkdjmm.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884815/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_patio1_qekapj.jpg"
+            
+            
+        ]
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884730/comuna/Fotos%20Presidente%20Roca/comisar%C3%ADa_pajfi2.jpg",
+        "titulo": "Sub-Comisaría N°15",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884732/comuna/Fotos%20Presidente%20Roca/20220619_164205_p4f5fx.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884727/comuna/Fotos%20Presidente%20Roca/entrada_ruta_13_qgebgk.jpg"
+            
+        ]
+    },
+    {
+        "imagenPrincipal": "https://res.cloudinary.com/sportify123/image/upload/v1657884796/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/frente_ajt5ti.jpg",
+        "titulo": "Comuna",
+        "descripción": "jfidnbfzoibnldkbkbln{ksmlñ",
+        "imagenesMuestra": [
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884813/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/Santa_Fe_Servicios_yucaua.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884810/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/Santa_Fe_Servicios_2_utou0y.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884804/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/primeros_auxilios_sum_jossb6.jpg"
+        ]
+    }
+]

@@ -38,6 +38,22 @@
             display: flex;
             align-items: center;
             margin-right: 20px;
+            position: relative;
+
+            p{
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                left: 0%;
+                font-weight: bold;
+                bottom: 15%;
+                height: 9%;
+                width: 100%;
+                background-color: #a19b9bab;
+            }
 
             img{
                 cursor: pointer;

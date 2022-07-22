@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./src/css/footer.css">
     <link rel="stylesheet" href="./src/css/nuestro_pueblo/index.css">
     <link rel="stylesheet" href="./src/css/nuestro_pueblo/carrousel_uno.css">
-    <link rel="stylesheet" href="./src/css/nuestro_pueblo/carrousel_dos.css">
+    <link rel="stylesheet" href="./src/css/nuestro_pueblo/card.css">
+    <link rel="stylesheet" href="./src/css/nuestro_pueblo/imagesSlider.css">
     <title>Nuestro pueblo</title>
 </head>
 <body>
@@ -79,88 +80,91 @@
 
             <div id="slider">
                 <picture>
+                    <p>Club Sportivo roca</p>
                     <img class="select_picture" id="club" src="./src/images/club Sportivo Roca/club.jpg" alt="club deportivo roca">
                 </picture>
 
                 <picture>
+                    <p>Plaza San Martín</p>
                     <img class="select_picture" id="plaza" src="./src/images/plaza/plaza_frente.jpg" alt="club deportivo roca">
                 </picture>
 
                 <picture id="">
+                    <p>Parroquia San Roque</p>
                     <img class="select_picture" id="" src="./src/images/iglesia/iglesia.jpg" alt="club deportivo roca">
                 </picture>
 
                 <picture id="">
+                    <p>Estación Roca</p>
                     <img class="select_picture" id="" src="./src/images/club Sportivo Roca/cancha.jpg" alt="club deportivo roca">
                 </picture>
 
                 <picture id="">
+                    <p>Escuela N° 386 "D.F.Sarmiento"</p>
+                    <img class="select_picture" id="" src="./src/images/escuelas/escuelas_frente.jpg" alt="club deportivo roca">
+                </picture>
+
+                <picture id="">
+                    <p>Escuela N° 703 "René Favaloro"</p>
+                    <img class="select_picture" id="" src="./src/images/escuelas/escuelas_frente.jpg" alt="club deportivo roca">
+                </picture>
+
+                <picture id="">
+                    <p>Sub-Comisaría N°15"</p>
+                    <img class="select_picture" id="" src="./src/images/escuelas/escuelas_frente.jpg" alt="club deportivo roca">
+                </picture>
+
+                <picture id="">
+                    <p>Comuna</p>
                     <img class="select_picture" id="" src="./src/images/escuelas/escuelas_frente.jpg" alt="club deportivo roca">
                 </picture>
             </div>
         </section>
         
-        <section class="slider_presentacion_container">
-            <div class="controls">
-                <svg xmlns="http://www.w3.org/2000/svg" id="left2" class="left-arrow arrow" viewBox="0 0 256 512"><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z"/></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" id="right2" class="right-arrow arrow" viewBox="0 0 256 512"><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"/></svg>
-            </div>
-
-            <div class="slider_presentacion">
-                <div class="presentacion">
-                    <h2>PLAZA SAN MARTÍN</h2>
-                    <img src="./src/images/plaza/plaza_frente.jpg" alt="frente de plaza">
+        <section class="card_container">
+            <div class="card">
+                <img src="./src/images/plaza/plaza_cartel.jpg" alt="plaza cartel">
+                <div class="text">
+                    <h2>Plaza San Martín</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis natus facere saepe rem? Ex eveniet, praesentium distinctio sit suscipit quod fugit impedit possimus, voluptas, incidunt repellat atque repudiandae eum.</p>
                 </div>
-                <div class="presentacion">
-                    <h2>COMUNA</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1658000238/comuna/Fotos%20Presidente%20Roca/frente_comuna_qk1asz.jpg" alt="frente de plaza">
-                </div>
-
-                <div class="presentacion">
-                    <h2>CLUB SPORTIVO ROCA</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884737/comuna/Fotos%20Presidente%20Roca/club%20Sportivo%20Roca/club_ifgpsm.jpg" alt="frente de plaza">
-                </div>
-
-                <div class="presentacion">
-                    <h2>PARROQUIA SAN ROQUE</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884776/comuna/Fotos%20Presidente%20Roca/iglesia/iglesia_1_mc8xvo.jpg" alt="frente de plaza">
-                </div>
-                <div class="presentacion">
-                    <h2>SUB-COMISARÍA N° 15</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884730/comuna/Fotos%20Presidente%20Roca/comisar%C3%ADa_pajfi2.jpg" alt="frente de plaza">
-                </div>
-                <div class="presentacion">
-                    <h2>ESCUELA PRIMARIA N° 386 "DOMINGO F. SARMIENTO"</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884746/comuna/Fotos%20Presidente%20Roca/escuelas/escuelas_frente1_nbct47.jpg" alt="frente de plaza">
-                </div>
-                <div class="presentacion">
-                    <h2>ESCUELA PRIMARIA N° 387 "GENERAL GERÓNIMO ESPEJO" (Estación Roca)</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1658001822/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/escuela_gmtmxn.jpg" alt="frente de plaza">
-                </div>
-                <div class="presentacion">
-                    <h2>ESCUELA SECUNDARIA N° 703 "RENÉ FAVALORO"</h2>
-                    <img src="https://res.cloudinary.com/sportify123/image/upload/v1657884824/comuna/Fotos%20Presidente%20Roca/escuelas/escuela_secundaria_ortev3.jpg" alt="frente de plaza">
-                </div>
+                <div class="border"></div>
             </div>
         </section>
 
-        <section class="descripcion">
-            <p id="text_descripcion">EL CONSTANTE TESTIMONIO DE LA FE:
-                Durante los primeros años de la colonia, la actividad religiosa dependía de la Parroquia de Rafaela y todos los oficios eran atendidos por un Capellán no estable.
-                Desde el 15 de junio de 1907 se hace cargo de la Capellanía el Reverendo Victorio Bossi, quien el 15 de mayo de 1908 es designado Vice Párroco de la colonia.
-                Poco tiempo después de iniciar su ministerio comenzó con gran empeño la construcción de la nueva iglesia. El 16 de agosto de 1911 se colocó la piedra fundamental del templo.
-                El diseño de los planos del templo estuvo a cargo del Arquitecto Arturo Lomello.
-                La obra pudo iniciarse en 1913 bajo la supervisión del constructor Ambrosio Nicolini, con el arduo trabajo de obreros calificados, la colaboración de los pobladores y de la Comisión de iglesia constituida por destacados propietarios de la localidad.
-                La construcción del nuevo templo demandó un lapso de diez años. La inauguración del edificio nuevo de la iglesia tuvo lugar el 11 de septiembre del año 1921.
-                La torre se construyó en 1924, año en que abandona el templo el Reverendo Padre Victorio Bossi, quien desempeñó un rol fundamental para lograr la deseada conclusión de las nuevas obras.
-                El primero de enero de 1929, al ser elevada a la categoría de Parroquia, fue designado como Párroco el Padre Pedro Torres. 
-                Otros sacerdotes que atendieron la Parroquia fueron: Padre Genaro Ruiz, Padre Juan Charola, Padre Armando Felici, Padre Benito Álvarez, Padre Domingo Balbiano, Padre Pedro Borello, Padre Antonio Ricci, Padre Articio Cecconi (estos últimos tres pertenecientes a la Congregación Misionera de la Consolata, proveniente de Italia), Padre Rogello Anchebel, Padre Luis Lorenzatto, Padre Domingo Viola.
-                En 1945 quedó inaugurada la Casa Parroquial, la cual permitió cubrir una vital necesidad.
-                Desde el 15 de enero del año 1955 se encontraba a cargo de la Parroquia el Padre Juan Dall ´Agnoll. 
-                En 1953 un rayo derrumbó tres metros de la torre, la que con posterioridad fue reconstruida. Pero lamentablemente, catorce años después, en 1967, como consecuencia de un tornado de inusitada magnitud que abatió sobre el pueblo de Presidente Roca, el templo parroquial sufrió graves daños, entre ellos la casi total voladura del techo, el cielorraso deteriorado en varias partes, y la torre completamente caída. Luego de casi 30 años, en 1996, se reconstruye y coloca nuevamente, siendo bendecida el 13 de agosto en una celebración con más de 500 personas del pueblo y localidades vecinas donde nos honraba la visita del Sr. Obispo de la diósesis Monseñor Héctor Romero, Padre Normando Corti y autoridades de las diversas instituciones locales. 
-                Varias Congregaciones participaron activamente en el desarrollo de la vida parroquial.
-                El Patrono de la Colonia es “San Roque”, motivo por el cual cada 16 de agosto (fecha del fallecimiento del Santo) se lleva a cabo la celebración de las Fiestas Patronales. La Santísima Virgen de la Consolata es venerada como Segunda Patrona.  
-                </p>
+        <section class="images_slider">
+            <div class="wrapper">
+                <input type="radio" name="image-slide" checked="checked">
+                <picture aria-label="Random Picture 1">
+                    <img src="https://picsum.photos/500/300?random=1" alt="Random Picture 1">
+                </picture>
+                
+                <input type="radio" name="image-slide">
+                <picture aria-label="Random Picture 2">
+                    <img src="https://picsum.photos/500/300?random=2" alt="">
+                </picture>
+            
+                <input type="radio" name="image-slide">
+                <picture aria-label="Link image">
+                    <a href="https://picsum.photos/500/300?random=3" target="_blank">
+                        <img src="https://picsum.photos/500/300?random=3" alt="">
+                    </a>
+                </picture>
+                
+                <input type="radio" name="image-slide">
+                <picture>
+                    <img src="https://picsum.photos/500/300?random=4" alt="">
+                </picture>
+                
+                <input type="radio" name="image-slide">
+                <section>
+                    <h2>
+                        This is not an image!
+                    </h2>
+                    <p>You could also just use a container with some text in it</p>
+                    <button>Call to action, bitch!</button>
+                </section>
+            </div>
         </section>
     </main>
 
