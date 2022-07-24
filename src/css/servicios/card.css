@@ -40,4 +40,55 @@ main {
   padding: 10px 60px 10px 0px;
 }
 
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .chooser {
+    right: auto;
+    position: relative;
+  }
+  .container .card {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container .chooser {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .chooser button {
+    margin-top: 30px;
+  }
+  .container .card {
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+  }
+  .container .card div {
+    padding: 0;
+    left: auto;
+  }
+  .container .card .img {
+    top: -7%;
+    height: 50%;
+    width: 70%;
+  }
+  .container .card .text {
+    width: 80%;
+    font-size: 15px;
+  }
+  .container .card .text h2 {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=card.css.map */

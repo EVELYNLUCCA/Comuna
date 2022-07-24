@@ -1,5 +1,13 @@
 @use "../variables";
 main{
+    hr{
+        width: 10%;
+        height: 3px;
+        border: none;
+        border-radius: 50px;
+        background-color: variables.$color3;
+        margin-bottom: 20px;
+    }
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -97,6 +105,11 @@ p{
     align-items: center;
     justify-content: center;
 
+    hr{
+        width: 30%;
+        margin-bottom: 0;
+    }
+
     .persona_huella{
         display: flex;
         justify-content: center;
@@ -148,4 +161,40 @@ p{
                 float: right;
             }
         }
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        p{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 16px;
+        }
+    }
+    .huellas{
+        .title{
+            h2{
+                font-size: 16px;
+                margin: 0;
+            }
+        }
+        .persona_huella{
+            .padre_juan, .doctor_angi{
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    img{
+                        width: 200px;
+                        float: none;
+                    }
+
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }

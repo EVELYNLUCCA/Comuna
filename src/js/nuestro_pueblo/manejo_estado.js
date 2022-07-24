@@ -3,7 +3,6 @@ const card = document.getElementById('card');
 const wrapper = document.getElementById('wrapper');
 const card_container = document.getElementById('card_container');
 const imagesSlider = document.querySelector('.images_slider');
-console.log(card_container);
 
 const activadores = document.querySelectorAll('.select_picture');
 
@@ -41,3 +40,14 @@ activadores.forEach(activador => {
 
     })
 })
+
+/* --------------AUTORIDADES---------------- */
+
+const activadoresAutoridades = document.querySelectorAll('.activador');
+
+activadoresAutoridades.forEach(el => {
+    el.addEventListener('click', (e) => {
+        el.nextElementSibling.classList.toggle('active');
+    })
+})
+

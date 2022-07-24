@@ -17,3 +17,16 @@ activador.addEventListener('click', (e) => {
         submenu_container.style.zIndex = '-1';
     }
 })
+
+/* ----NAV----- */
+
+const activadorNav = document.getElementById('menu_activador');
+const navigation = document.getElementById('navigation')
+
+activadorNav.addEventListener('click', (e) => {
+    navigation.style.right = '0';
+})
+
+document.getElementById('menu_desactivador').addEventListener('click', (e) => {
+    navigation.style.right = '-50%';
+})

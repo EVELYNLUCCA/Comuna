@@ -91,4 +91,25 @@
   transform: translate(5px, 5px);
 }
 
+@media only screen and (max-width: 768px) {
+  #autoridades_y_servicios {
+    height: 170vh;
+  }
+  #autoridades_y_servicios .servicios .title h2 {
+    font-size: 20px;
+  }
+  #autoridades_y_servicios .servicios .picture_info {
+    height: 150px;
+    width: 30%;
+    margin-top: 20px;
+  }
+  #autoridades_y_servicios .servicios .btn-bg.bg-1 {
+    width: 200px;
+  }
+  #autoridades_y_servicios .servicios .btn-bg.bg-1 .btn button {
+    padding: 15px;
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=pictures.css.map */

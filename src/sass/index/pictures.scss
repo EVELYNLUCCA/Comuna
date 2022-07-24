@@ -166,3 +166,35 @@
 
     }
 }
+
+@media only screen and (max-width: 768px){
+    #autoridades_y_servicios{
+        height: 170vh;
+        .servicios{
+            .title{
+                h2{
+                    font-size: 20px;
+                }
+            }
+
+            .picture_info{
+                height: 150px;
+                width: 30%;
+                margin-top: 20px;
+            }
+
+            .btn-bg.bg-1{
+                width: 200px;
+
+                .btn{
+                    button{
+                        padding: 15px;
+                        font-size: 12px
+                    }
+                }
+            }
+
+            
+        }
+    }
+}

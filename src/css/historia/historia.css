@@ -5,6 +5,14 @@ main {
   justify-content: center;
   flex-direction: column;
 }
+main hr {
+  width: 10%;
+  height: 3px;
+  border: none;
+  border-radius: 50px;
+  background-color: #68A7AD;
+  margin-bottom: 20px;
+}
 main h1 {
   text-align: center;
   color: #68A7AD;
@@ -82,6 +90,10 @@ main p {
   align-items: center;
   justify-content: center;
 }
+.huellas hr {
+  width: 30%;
+  margin-bottom: 0;
+}
 .huellas .persona_huella {
   display: flex;
   justify-content: center;
@@ -124,6 +136,32 @@ main p {
 }
 .huellas .text img#float_right {
   float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  main p {
+    font-size: 14px;
+  }
+  main h1 {
+    font-size: 16px;
+  }
+
+  .huellas .title h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .huellas .persona_huella .padre_juan .text, .huellas .persona_huella .doctor_angi .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .huellas .persona_huella .padre_juan .text img, .huellas .persona_huella .doctor_angi .text img {
+    width: 200px;
+    float: none;
+  }
+  .huellas .persona_huella .padre_juan .text p, .huellas .persona_huella .doctor_angi .text p {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=historia.css.map */

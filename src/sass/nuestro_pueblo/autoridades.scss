@@ -1,0 +1,66 @@
+@use '../variables';
+
+#autoridades{
+    width: 90%;
+
+    .autoridades_container{
+        box-sizing: border-box;
+        background-color: variables.$color4;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+        border: 0.2px solid variables.$negrito;
+
+        .activador{
+            padding: 10px;
+            box-sizing: border-box;
+            align-items: center;
+            height: 50px;
+            border: none;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-top: 0;
+            width: 100%;
+        }
+
+        .personas{
+            padding: 10px;
+            box-sizing: border-box;
+            position: relative;
+            cursor:auto;
+            top: 0px;
+            left: 0;
+            border-radius: 0;
+            display: none;
+            flex-direction: column;
+            border: none;
+            border-top: 0.2px solid variables.$negrito;
+
+            &.active{
+                display: flex;
+            }
+        }
+    }
+
+    svg{
+        width: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #autoridades{
+        .autoridades_container{
+            margin-top: 40px;
+
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+}

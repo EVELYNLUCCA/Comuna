@@ -2,7 +2,7 @@
 
 #slider_contain{
     margin-top: 40px;
-    width: 100%;
+    width: 95.5%;
     height: 50vh;
     overflow: hidden;
     position: relative;
@@ -78,6 +78,30 @@
                     border-radius: 7px;
                 }
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #slider_contain{
+        height: 38vh;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #slider_contain{
+        width: 105%;
+        height: 25vh;
+
+        #slider{
+            .tanda{
+                picture{
+                    p{
+                        display: none;
+                    }
+                }
+            } 
         }
     }
 }

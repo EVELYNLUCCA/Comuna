@@ -167,3 +167,21 @@
 .images_slider input:last-of-type:before {
 	background: green;
 }
+
+@media only screen and (max-width: 768px){
+	.images_slider{
+		margin-top: 0;
+		align-items: center;
+		background-color: transparent;
+	}
+	.wrapper{
+		width: 100%;
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.wrapper{
+		height: 200px;
+	}
+}

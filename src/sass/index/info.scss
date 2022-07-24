@@ -89,3 +89,69 @@
     }
     
 }
+
+@media only screen and (max-width: 768px){
+    #info{
+        height: 150vh;
+        justify-content: flex-start;
+
+        .fondo-color{
+            height: 10%;
+
+            h2{
+                margin: 0;
+                font-size: 23px;
+            }
+        }
+
+        .containerImages{
+            height: 90%;
+            width: 95%;
+            flex-direction: column;
+
+            .card{
+                width: 100%;
+                height: 50%;
+                padding: 0;
+
+                h3{
+                    margin: 0;
+                }
+
+                .slider{
+                    .carrousel{
+                        .img{
+                            img {
+                                width: 60%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+
+                p{
+                    margin: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #info .containerImages{
+        width: 90%;
+    }
+
+    #info .containerImages .card .slider{
+        height: 50%;
+    }
+
+    #info .containerImages .card{
+        height: 50%;
+    }
+    
+    #info .containerImages .card .slider svg{
+        font-size: 10px;
+    }
+}
