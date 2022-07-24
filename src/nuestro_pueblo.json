@@ -27,7 +27,7 @@
             "https://res.cloudinary.com/sportify123/image/upload/v1657884801/comuna/Fotos%20Presidente%20Roca/plaza_juegos/plaza_juegos_aezqwc.jpg"
             
         ],
-        "color": "linear-gradient(0deg, rgba(33,138,37,1) 9%, rgba(116,222,74,1) 76%);"
+        "color": " linear-gradient(175deg, rgba(76,149,176,1) 18%, rgba(51,103,142,0.9752275910364145) 58%);"
     },
     {
         "id": "parroquia",
@@ -51,9 +51,8 @@
             "https://res.cloudinary.com/sportify123/image/upload/v1658001822/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/escuela_gmtmxn.jpg",
             "https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/caballos1_btp1xr.jpg",
             "https://res.cloudinary.com/sportify123/image/upload/v1657884758/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/casona_encizv.jpg",
-            "https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/garita_itwrnf.jp",
-            "https://res.cloudinary.com/sportify123/image/upload/v1657884768/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/la_roca_box08w.jpg"
-        
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884768/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/la_roca_box08w.jpg",
+            "https://res.cloudinary.com/sportify123/image/upload/v1657884760/comuna/Fotos%20Presidente%20Roca/Estaci%C3%B3n/garita_itwrnf.jpg"
         ],
         "color": "linear-gradient(0deg, rgba(59,64,58,1) 2%, rgba(139,147,166,1) 45%);"
     },
@@ -105,6 +104,6 @@
             "https://res.cloudinary.com/sportify123/image/upload/v1657884810/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/Santa_Fe_Servicios_2_utou0y.jpg",
             "https://res.cloudinary.com/sportify123/image/upload/v1657884804/comuna/Fotos%20Presidente%20Roca/fotos%20comuna/primeros_auxilios_sum_jossb6.jpg"
         ],
-        "color": "linear-gradient(175deg, rgba(76,149,176,1) 18%, rgba(51,103,142,0.9752275910364145) 58%);"
+        "color": " linear-gradient(0deg, rgba(119,132,133,1) 32%, rgba(83,138,132,1) 83%);"
     }
 ]

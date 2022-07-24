@@ -67,7 +67,7 @@ p{
                     font-size: 20px;
                     position: relative;
                     bottom: 20px;
-                    background-color: #FEFEFE80;
+                    background-color: #e3f0fc80;
                 }
                 
             }
@@ -104,14 +104,18 @@ p{
         padding: 30px;
 
         .padre_juan, .doctor_angi{
-            background-color: variables.$color3;
-            width: 90%;
+            background-color: variables.$color4;
+            width: 100%;
             border-radius: 20px;
 
             .text{
                 img{
                     position: relative;
                 }
+            }
+
+            h3{
+                color:variables.$negrito1;
             }
         }
     }

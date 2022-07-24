@@ -12,7 +12,6 @@ footer{
         height: 80%;
         display: flex;
         justify-content: space-between;
-
         div{
             box-sizing: border-box;
         }
@@ -28,8 +27,8 @@ footer{
             justify-content: center;
 
             img{
-                width: 100%;
-                height: 53%;
+                width: 80%;
+                height: 73%;
                 object-fit: contain;
             }
 
@@ -41,7 +40,7 @@ footer{
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            padding: 30px;
+            padding: 30px 0px 30px 75px;
             justify-content: center;
 
             div{
@@ -100,3 +99,103 @@ footer{
             
         }
     }
+
+@media only screen and (max-width: 1237px) {
+    footer{
+        font-size: 13px;
+
+        .footer_data{
+            .logo{
+                width: 20%;
+    
+                img{
+                    height: 70%;
+                }
+            }
+
+            .telefonos{
+                width: 55%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1004px){
+    footer{
+
+        .footer_data{
+
+           .logo{
+            img{
+                height: 50%;
+            }
+           }
+
+           .contacto{
+            padding: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    footer{
+        height: auto;
+
+        .footer_data{
+            flex-direction: column;
+
+            .contacto, .logo, .telefonos{
+                width: 100%;
+            }
+
+            .logo{
+                height: 30vh;
+
+                img{
+                    height: 100%;
+                }
+            }
+
+            .contacto{
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .contact_card{
+                    margin-left: 20px;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 14px;
+
+                    svg{
+                        margin: 0;
+                        margin-right: 10px;
+                        width: 15px;
+                    }
+
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+
+            .telefonos{
+                flex-wrap: wrap;
+                justify-content: center ;
+                .tel_card{
+                    width: 100px;
+                    margin: 0;
+                    margin-left: 10px;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .footer_copyright{
+            p{
+                padding: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+}

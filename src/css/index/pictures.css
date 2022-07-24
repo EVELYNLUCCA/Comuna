@@ -1,90 +1,39 @@
 #autoridades_y_servicios {
   width: 100%;
-  height: 110vh;
+  height: 130vh;
   display: flex;
 }
-#autoridades_y_servicios .servicios, #autoridades_y_servicios .autoridades {
-  width: 50%;
+#autoridades_y_servicios .servicios {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
 }
-#autoridades_y_servicios .servicios h2, #autoridades_y_servicios .autoridades h2 {
-  height: 10%;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#autoridades_y_servicios .servicios .title {
   width: 100%;
+}
+#autoridades_y_servicios .servicios .title h2 {
+  font-family: "Nanum Gothic", Arial, Helvetica, sans-serif;
   text-align: center;
   text-transform: uppercase;
+  font-size: 30px;
+  color: #2C3333;
 }
-#autoridades_y_servicios .servicios .autoridad, #autoridades_y_servicios .autoridades .autoridad {
-  width: 35%;
-  height: 29%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#autoridades_y_servicios .servicios .title hr {
+  width: 5%;
+  height: 3px;
+  background-color: #2C3333;
+  border: none;
+  border-radius: 50px;
 }
-#autoridades_y_servicios .servicios .autoridad#tesorera, #autoridades_y_servicios .autoridades .autoridad#tesorera {
-  width: 100%;
-}
-#autoridades_y_servicios .servicios .autoridad#tesorera picture, #autoridades_y_servicios .autoridades .autoridad#tesorera picture {
-  width: 17%;
-}
-#autoridades_y_servicios .servicios .autoridad#cuenta, #autoridades_y_servicios .autoridades .autoridad#cuenta {
-  padding-top: 20px;
-  width: 62%;
-  display: flex;
-  height: 31%;
-}
-#autoridades_y_servicios .servicios .autoridad#cuenta h3, #autoridades_y_servicios .autoridades .autoridad#cuenta h3 {
-  margin-top: 0;
-  width: 100%;
-}
-#autoridades_y_servicios .servicios .autoridad#cuenta h3#cuentas_titulo, #autoridades_y_servicios .autoridades .autoridad#cuenta h3#cuentas_titulo {
-  text-align: center;
-  text-transform: uppercase;
-}
-#autoridades_y_servicios .servicios .autoridad#cuenta h3:not(#cuentas_titulo), #autoridades_y_servicios .autoridades .autoridad#cuenta h3:not(#cuentas_titulo) {
-  padding-left: 23px;
-}
-#autoridades_y_servicios .servicios .autoridad#cuenta .controladores, #autoridades_y_servicios .autoridades .autoridad#cuenta .controladores {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-#autoridades_y_servicios .servicios .autoridad picture, #autoridades_y_servicios .autoridades .autoridad picture {
-  width: 50%;
-  height: 90%;
-  border-radius: 40%;
+#autoridades_y_servicios .servicios {
   position: relative;
-  overflow: hidden;
-}
-#autoridades_y_servicios .servicios .autoridad picture img, #autoridades_y_servicios .autoridades .autoridad picture img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-}
-#autoridades_y_servicios .servicios .autoridad .picture_text, #autoridades_y_servicios .autoridades .autoridad .picture_text {
-  height: 40%;
-}
-#autoridades_y_servicios .servicios .autoridad .picture_text h3, #autoridades_y_servicios .servicios .autoridad .picture_text p, #autoridades_y_servicios .autoridades .autoridad .picture_text h3, #autoridades_y_servicios .autoridades .autoridad .picture_text p {
-  margin-bottom: 0;
-}
-#autoridades_y_servicios .servicios .autoridad .picture_text p, #autoridades_y_servicios .autoridades .autoridad .picture_text p {
-  margin-top: 5px;
-  font-size: 14px;
-  width: 80%;
+  /*------------*/
 }
 #autoridades_y_servicios .servicios picture {
-  width: 30%;
-  height: 28.5%;
-  border-radius: 50%;
-  margin-left: 20px;
-  margin-top: 15px;
+  height: 32%;
+  margin-left: 35px;
   position: relative;
   overflow: hidden;
 }
@@ -95,39 +44,51 @@
   object-fit: cover;
 }
 #autoridades_y_servicios .servicios picture {
-  width: 37%;
-  border-radius: 10px;
+  width: 20%;
+  border-radius: 0px;
 }
-#autoridades_y_servicios .servicios picture:hover .picture_text {
-  opacity: 1;
-}
-#autoridades_y_servicios .servicios .picture_text {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(212, 212, 212, 0.651);
-  position: absolute;
-  padding: 0px 5px;
-  top: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#autoridades_y_servicios .servicios picture:hover {
+  transform: scale(1.04);
   transition: all 0.2s;
-  opacity: 0;
 }
-#autoridades_y_servicios .servicios .picture_text h3 {
-  width: 90%;
-  text-align: center;
+#autoridades_y_servicios .servicios .btn-bg {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  bottom: 0;
 }
-#autoridades_y_servicios .servicios .picture_text button {
-  background: none;
-  border: none;
-  border-radius: 10px;
-  padding: 5px;
-  background-color: #68A7AD;
+#autoridades_y_servicios .servicios .btn-bg.bg-1 .btn-1 button {
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  cursor: pointer;
+  background: #68A7AD;
+  color: #EEEBDD;
+  border: 3px solid #EEEBDD;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
-#autoridades_y_servicios .servicios .picture_text button a {
-  color: inherit;
-  text-decoration: none;
+#autoridades_y_servicios .servicios .btn-bg.bg-1 .btn-1 button a {
+  color: #EEEBDD;
+}
+#autoridades_y_servicios .servicios .btn-bg.bg-1 .btn-1 button:hover {
+  background: #EEEBDD;
+  color: #68A7AD;
+  border: 3px solid #68A7AD;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+#autoridades_y_servicios .servicios .btn-bg.bg-1 .btn-1 button:hover > a {
+  color: #68A7AD;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+#autoridades_y_servicios .servicios .btn-bg.bg-1 .btn-1 button:active {
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px);
 }
 
 /*# sourceMappingURL=pictures.css.map */

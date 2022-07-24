@@ -1,9 +1,13 @@
+@use '../variables';
+
 /* */
 .images_slider{
-	width: 100%;
+	width: 90%;
 	display: flex;
 	justify-content: center;
-	height: 100vh;
+	background: variables.$color4;
+	border-radius: 20px;
+	height: 70vh;
 	margin-top: 60px;
 }
 
@@ -30,7 +34,7 @@
 .wrapper {
 	position: relative;
 	width: 65%;
-	height: 70%;
+	height: 100%;
 	overflow: hidden;
 	display: flex;
 	align-items: flex-end;

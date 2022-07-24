@@ -7,7 +7,7 @@
         "description": "La atención en el SANCO se realiza de lunes a viernes en el horario de 6 hs a 12 hs. Contamos con atención médica, enfermería, vacunatorio y servicio de odontología.Para gestionar turnos o ante cualquier duda podés comunicarte a nuestros teléfonos: 3492 485210  / 3492 229079."
     },
     {
-        "imageUrl": "https://scontent.fros2-1.fna.fbcdn.net/v/t39.30808-6/256493668_1059081208213997_1873925541253712347_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=dhqAaxb1uDUAX_LiJMB&_nc_ht=scontent.fros2-1.fna&oh=00_AT-QvdKZSpi0ZX_GEPt1qAq4qUANzs1JkiSxpe9naNtKpA&oe=62DA91DB",
+        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1658599021/comuna/Fotos%20Presidente%20Roca/servicios/256493668_1059081208213997_1873925541253712347_n_zrxcnv.jpg",
         "title": "Cajero Automático",
         "category": "asistencia",
         "category2": "obra",
@@ -57,5 +57,12 @@
         "title": "Obras y mantenimiento de caminos",
         "category": "obras",
         "description": "Diariamente realizamos obras que contribuyen a mejorar el estado de caminos para maximizar la comodidad de nuestros habitantes."
+    },
+    {
+        "imageUrl": "https://res.cloudinary.com/sportify123/image/upload/v1657884803/comuna/Fotos%20Presidente%20Roca/servicios/centro_de_salud_luj3vq.jpg",
+        "title": "Antena 4G",
+        "category": "obras",
+        "category2": "asistencia",
+        "description": "La antena 4G ha sido colocada para mejorar las comunicaciones"
     }
 ]

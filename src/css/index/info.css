@@ -44,14 +44,23 @@
   position: relative;
   left: 0%;
 }
-#info .containerImages .card .slider .carrousel img {
+#info .containerImages .card .slider .carrousel .img {
   min-width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+#info .containerImages .card .slider .carrousel .img img {
+  width: 87%;
+  height: 87%;
+  border: none;
+  background: none;
 }
 #info .containerImages .card .slider svg {
-  background-color: rgba(254, 254, 254, 0.5019607843);
   position: absolute;
   top: calc(50% - 20px);
   z-index: 99999999;

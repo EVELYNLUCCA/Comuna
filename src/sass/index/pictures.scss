@@ -2,105 +2,105 @@
 
 #autoridades_y_servicios{
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     display: flex;
 
-    .servicios,.autoridades{
-        width: 50%;
+    .servicios{
+        .title{
+            width: 100%;
+
+            h2{
+                font-family:'Nanum Gothic', Arial, Helvetica, sans-serif;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 30px;
+                color: variables.$negrito1;
+            }
+            hr{
+                width: 5%;
+                height: 3px;
+                background-color: variables.$negrito1; 
+                border: none;
+                border-radius: 50px;
+            }
+        }
+        
+
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
 
-        h2{
-            height: 10%;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .autoridad{
-            width: 35%;
-            height: 29%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            &#tesorera{
-                width: 100%;
-
-                picture{
-                    width: 17%;
-                }
-            }
-
-            &#cuenta{
-                padding-top: 20px;
-                width: 62%;
-                display: flex;
-                height: 31%;
-                
-                h3{
-                    margin-top: 0;
-                    width: 100%;
-
-                    &#cuentas_titulo{
-                        text-align: center;
-                        text-transform: uppercase;
-                    }
-
-                    &:not(#cuentas_titulo){
-                        padding-left: 23px;
-                    }
-                }
-
-                .controladores{
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-evenly;
-                }
-            }
-
-            picture{
-                width: 50%;
-                height: 90%;
-                border-radius: 40%;
-                position: relative;
-                overflow: hidden;
         
-                img{
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    object-fit:cover; 
-                }
-            }
-
-            .picture_text{
-                height: 40%;
-                h3,p{
-                    margin-bottom: 0;
-                }
-                p{
-                    margin-top: 5px;
-                    font-size: 14px;
-                    width: 80%;
-                }
-            }
-        }
     }
+//     <div class="autoridades">
+//     <h2>Autoridades</h2>
+//     <div class="autoridad">
+//         <picture class="picture_info">
+//             <img src="./src/images/autoridades/fotoMarceloBocco.jpeg" alt="foto presidente">
+//         </picture>
+//         <div class="picture_text">
+//             <h3>Presidente comunal</h3>
+//             <p>Bocco, Marcelo Lorenzo</p>
+//         </div>
+//     </div>
+    
+//     <div class="autoridad">
+//         <picture class="picture_info">
+//             <img src="./src/images/autoridades/fotoEmiBocco.jpg" alt="foto vice-presidente">
+//         </picture>
+
+//         <div class="picture_text">
+//             <h3>Vicepresidente comunal</h3>
+//             <p>Bocco, Emiliano Gabriel<br><br></p>
+//         </div>
+//     </div>
+
+//     <div class="autoridad" id="tesorera">
+        
+//             <picture class="picture_info" id="tesorera_picture">
+//                 <img src="./src/images/autoridades/fotoCarolaCarrizo.jpg" alt="foto tesorera">
+//             </picture>
+//             <div class="picture_text">
+//                 <h3>Tesorera</h3>
+//                 <p>Carrizo Braccaccini, Carola<br><br></p>
+//             </div>
+        
+//     </div>
+    
+//     <div class="autoridad" id="cuenta">
+//         <h3 id="cuentas_titulo">Controladores de cuenta</h3>
+
+//         <div class="controladores">
+//             <div class="titulares">
+//                 <h3>Titulares:</h3>
+                
+//                 <ol>
+//                     <li>Sara, Diego Angel</li>
+//                     <li>Dayer, Marcelo Gustavo</li>
+//                     <li>Echevarría, Ana María</li>
+//                 </ol>
+//             </div>
+
+//             <div class="suplentes">
+//                 <h3>Suplentes:</h3>
+                
+//                 <ol>
+//                     <li>Soñez, Edgardo Gabriel</li>
+//                     <li>Reynoso, Gisela Soledad</li>
+//                     <li>Lufiego Sanchez, Néstor Javier</li>
+//                 </ol>
+//             </div>
+//         </div>
+//     </div>
+// </div>
 
     .servicios{
+        position: relative;
         picture{
-            width: 30%;
-            height: 28.5%;
-            border-radius: 50%;
-            margin-left: 20px;
-            margin-top: 15px;
+            height: 32%;
+            margin-left: 35px;
             position: relative;
             overflow: hidden;
     
@@ -113,46 +113,56 @@
         }
 
         picture{
-            width: 37%;
-            border-radius: 10px;
+            width: 20%;
+            border-radius: 0px;
+            
 
             &:hover {
-                .picture_text {
-                    opacity: 1;
-                }
+                transform: scale(1.04);
+                transition: all 0.2s;
             }
         }
 
-        .picture_text{
+        .btn-bg {
+            width: 300px;
+            height: 60px;
+            position: relative;
+            bottom: 0;
+          }
+        .btn-bg.bg-1 .btn-1 button {
             width: 100%;
+            padding: 20px;
             height: 100%;
-            background-color: rgba(212, 212, 212, 0.651);
-            position: absolute;
-            padding: 0px 5px;
-            top: 0px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            transition: all .2s;
-            opacity: 0;
-
-            h3{
-                width: 90%;
-                text-align: center;
-            }
-
-            button{
-                background: none;
-                border: none;
-                border-radius: 10px;
-                padding: 5px;
-                background-color: variables.$color3;
-                a{
-                    color: inherit;
-                    text-decoration: none;
-                }
-            }
-        }
+            cursor: pointer;
+            background: variables.$color3;
+            color: variables.$blanquito;
+            border: 3px solid variables.$blanquito;
+            border-radius: 5px;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+          }
+        .btn-bg.bg-1 .btn-1 button a {
+            color: variables.$blanquito;
+          }
+        .btn-bg.bg-1 .btn-1 button:hover {
+            background: variables.$blanquito;
+            color: variables.$color3;
+            border: 3px solid variables.$color3;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+          }
+        .btn-bg.bg-1 .btn-1 button:hover >a {
+            color: variables.$color3;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+          }
+        .btn-bg.bg-1 .btn-1 button:active {
+            -webkit-transform: translate(5px, 5px);
+            transform: translate(5px, 5px);
+          }
+        /*------------*/
 
     }
 }
